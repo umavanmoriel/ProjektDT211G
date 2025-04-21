@@ -1,7 +1,6 @@
 {
   "name": "projekt",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "",
   "license": "ISC",
   "source": "src/pages/index.html",
@@ -11,6 +10,7 @@
   },
   "description": "",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4",
     "parcel": "^2.14.4",
     "sharp": "^0.34.1",
     "svgo": "^3.3.2"

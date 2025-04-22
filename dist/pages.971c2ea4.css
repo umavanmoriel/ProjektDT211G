@@ -4,4 +4,83 @@
   margin: 0;
   padding: 0;
 }
+
+li {
+  text-decoration: none;
+}
+
+a {
+  list-style: none;
+}
+
+img {
+  height: 70px;
+}
+
+body {
+  color: #331a00;
+  background-color: #fff2e6;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fff;
+    background-color: #331a00;
+  }
+
+  body header {
+    color: #331a00;
+    background-color: #fff2e6;
+  }
+}
+
+main {
+  padding: 50px 200px;
+}
+
+.wellcome-text {
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  display: flex;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  display: flex;
+}
+
+.nav-list {
+  justify-content: center;
+  gap: 60px;
+  display: flex;
+}
+
+footer {
+  padding: 40px;
+}
+
+.nav-list {
+  font-family: Playfair Display, sans serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h1 {
+  text-align: center;
+  font-family: Berkshire Swash, Arial;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+p {
+  text-align: center;
+  font-family: Playfair Display, sans serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 38px;
+}
 /*# sourceMappingURL=pages.971c2ea4.css.map */

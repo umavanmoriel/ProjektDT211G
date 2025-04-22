@@ -1,1 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+img {
+    height: 70px;
+}
+
+$heading-font: 'Berkshire Swash', Arial;
+$p-font: 'Playfair Display', sans serif;
+
+$background-color-dark: #331a00;
+$background-color-light:#fff2e6;
+
+$font-color-light: white;
+$font-color-dark: #331A00;
+
+body {
+    background-color: $background-color-light;
+    color: $font-color-dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    
+      header {
+        background-color: #fff2e6;
+        color: #331A00;
+      }
+
+      background-color: $background-color-dark;
+      color: $font-color-light;
+  }
+}
+
+$font-size-h1-desktop: 36px;
+$font-size-p-desktop: 22px;
+
+$font-size-h1-ipad: 32px;
+$font-size-p-ipad: 20px;
+
+$font-size-h1-phone: 26px;
+$font-size-p-phone: 18px;
+
+$font-size-nav-desktop: 18px;
+$font-size-nav-ipad: 22px;
+$font-size-nav-phone: 18px;
+
+$line-height-h: 36px;
+$line-height-p: 38px;
+
+$font-weight-h: 700;
+$font-weight-p: 400;

@@ -4,6 +4,7 @@ window.onload = init;
 // Funktion för att initialisera applikationen och hämta information
 function init() {
     processData();
+    processDogData();
 }
 
 //Hämta information
@@ -103,3 +104,4 @@ function coursesInfoDisplays() {
     breedSectionEl.appendChild(newSectionEl);
 }
 */
+

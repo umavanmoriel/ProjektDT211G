@@ -13,31 +13,16 @@ $background-color-light:#fff2e6;
 $font-color-light: white;
 $font-color-dark: #331A00;
 
-body {
-    background-color: $background-color-light;
-    color: $font-color-dark;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    
-      header {
-        background-color: #fff2e6;
-        color: #331A00;
-      }
-
-      background-color: $background-color-dark;
-      color: $font-color-light;
-  }
-}
-
 $font-size-h1-desktop: 36px;
-$font-size-p-desktop: 22px;
+$font-size-h2-desktop: 26px;
+$font-size-p-desktop: 20px;
 
 $font-size-h1-ipad: 32px;
+$font-size-h2-ipad: 22px;
 $font-size-p-ipad: 20px;
 
 $font-size-h1-phone: 26px;
+$font-size-h2-phone: 22px;
 $font-size-p-phone: 18px;
 
 $font-size-nav-desktop: 18px;

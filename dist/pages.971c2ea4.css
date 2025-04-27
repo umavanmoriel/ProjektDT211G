@@ -17,25 +17,8 @@ img {
   height: 70px;
 }
 
-body {
-  color: #331a00;
-  background-color: #fff2e6;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    color: #fff;
-    background-color: #331a00;
-  }
-
-  body header {
-    color: #331a00;
-    background-color: #fff2e6;
-  }
-}
-
-main {
-  padding: 50px 200px;
+.startpage-main {
+  padding: 50px 100px;
 }
 
 .wellcome-text {
@@ -62,6 +45,50 @@ footer {
   padding: 40px;
 }
 
+.adoption-container {
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 100px;
+  display: flex;
+}
+
+.dogs-container {
+  grid-template-columns: repeat(3, 350px);
+  gap: 40px;
+  display: grid;
+}
+
+.dog-container {
+  cursor: pointer;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+  display: flex;
+}
+
+body {
+  color: #331a00;
+  background-color: #fff2e6;
+}
+
+.dog-container {
+  color: #fff;
+  background-color: #331a00;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fff;
+    background-color: #331a00;
+  }
+
+  body header, body .dog-container {
+    color: #331a00;
+    background-color: #fff2e6;
+  }
+}
+
 .nav-list {
   font-family: Playfair Display, sans serif;
   font-size: 18px;
@@ -76,10 +103,17 @@ h1 {
   line-height: 36px;
 }
 
-p {
+h2 {
   text-align: center;
   font-family: Playfair Display, sans serif;
-  font-size: 22px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+p {
+  font-family: Playfair Display, sans serif;
+  font-size: 20px;
   font-weight: 400;
   line-height: 38px;
 }

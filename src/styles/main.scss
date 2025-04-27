@@ -3,7 +3,33 @@
 @use 'layout';
 @use 'component';
 
+body {
+    background-color: base.$background-color-light;
+    color: base.$font-color-dark;
+}
 
+.dog-container {
+    background-color: base.$background-color-dark;
+    color: base.$font-color-light;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    
+      header {
+        background-color: base.$background-color-light;
+        color: base.$font-color-dark;
+      }
+
+      background-color: base.$background-color-dark;
+      color: base.$font-color-light;
+
+      .dog-container {
+        background-color: base.$background-color-light;
+        color: base.$font-color-dark;
+    }
+  }
+}
 .nav-list {
     font-family: base.$p-font;
     font-size: base.$font-size-nav-desktop;
@@ -18,8 +44,15 @@ h1 {
     line-height: base.$line-height-h;
 }
 
-p {
+h2 {
     text-align: center;
+    font-family: base.$p-font;
+    font-size: base.$font-size-h2-desktop;
+    font-weight: base.$font-weight-h;
+    line-height: base.$line-height-h;
+}
+
+p {
     font-family: base.$p-font;
     font-size: base.$font-size-p-desktop;
     font-weight: base.$font-weight-p;

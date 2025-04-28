@@ -667,6 +667,12 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"lFEsO":[function(require,module,exports,__globalThis) {
+// Dropdown menu
+const menuEl = document.getElementById("menu");
+const dropdownEl = document.getElementById("dropdown-menu");
+menuEl.addEventListener('click', ()=>{
+    dropdownEl.classList.toggle('show');
+});
 
 },{}]},["jSNv4","lFEsO"], "lFEsO", "parcelRequire170a", {})
 

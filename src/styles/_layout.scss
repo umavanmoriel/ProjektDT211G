@@ -1,49 +1,241 @@
-.startpage-main {
-    padding: 50px 100px;
+@media screen and (min-width:990px) {
+    .startpage-main {
+        padding: 50px 200px;
+    }
+    
+    .wellcome-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 60px;
+    }
+
+    .menu-container {
+        display: none;
+    }
+    
+    .nav-list, .footer-list {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+    }
+    
+    footer {
+        padding: 40px;
+    }
+    
+    .adoption-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding: 50px 100px;
+    }
+    
+    .dogs-container {
+        display: grid;
+        grid-template-columns: repeat(3,350);
+        gap: 40px;
+    }
+    
+    .dog-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px;
+        cursor: pointer;
+    }
 }
 
-.wellcome-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
+@media screen and (min-width: 600px) and (max-width: 989px) {
+    .startpage-main {
+        padding: 50px 100px;
+    }
+    
+    .wellcome-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 60px;
+    }
+
+    .menu-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    .menu-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px 10px;
+    }
+
+    .dropdown-menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        position: absolute;
+        top: 100px;
+        right: -300px;
+        transition: right ease 0.3s;
+    }
+
+    .dropdown-menu.show {
+        display: flex;
+        right: 0px;
+        top: 100px;
+    }
+    
+    .nav-list {
+        display: none;
+    }
+
+    .footer-list {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+    }
+    
+    footer {
+        padding: 40px;
+    }
+    
+    .adoption-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding: 50px 100px;
+    }
+    
+    .dogs-container {
+        display: grid;
+        grid-template-columns: repeat(3,350);
+        gap: 40px;
+    }
+    
+    .dog-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px;
+        cursor: pointer;
+    }
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 60px;
-}
+@media screen and (max-width: 600px) {
+    .startpage-main {
+        padding: 50px ;
+    }
+    
+    .wellcome-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+    }
 
-.nav-list {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-}
+    .menu-container {
+        display: flex;
+        align-items: center;
+    }
 
-footer {
-    padding: 40px;
-}
+    .menu {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+    }
 
-.adoption-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-    padding: 50px 100px;
-}
+    .menu-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 20px 10px;
+        width: 100vw;
+    }
 
-.dogs-container {
-    display: grid;
-    grid-template-columns: repeat(3,350);
-    gap: 40px;
-}
+    .dropdown-menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        position: absolute;
+        right: 0px;
+        left: 0px;
+        top: -300px;
+        transition: top ease 0.3s;
+    }
 
-.dog-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 50px;
-    cursor: pointer;
+    .dropdown-menu.show {
+        display: flex;
+        top: 100px;
+    }
+    
+    .nav-list {
+        display: none;
+    }
+
+    .footer-list {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+    }
+    
+    footer {
+        padding: 40px;
+    }
+    
+    .adoption-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding: 50px 100px;
+    }
+    
+    .dogs-container {
+        display: grid;
+        grid-template-columns: repeat(3,350);
+        gap: 40px;
+    }
+    
+    .dog-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px;
+        cursor: pointer;
+    }
 }

@@ -707,18 +707,14 @@ function DogsInfoDisplay(data) {
         const dogNameTextEl = document.createTextNode(dog.name);
         dogNameEl.appendChild(dogNameTextEl);
         newSectionEl.appendChild(dogNameEl);
-        const dogDescEl = document.createElement('p');
-        const dogDescTextEl = document.createTextNode(dog.description);
-        dogDescEl.appendChild(dogDescTextEl);
-        newSectionEl.appendChild(dogDescEl);
         const dogBreedEl = document.createElement('p');
         const dogBreedTextEl = document.createTextNode(dog.breed);
         dogBreedEl.appendChild(dogBreedTextEl);
         newSectionEl.appendChild(dogBreedEl);
-        const dogAgeEl = document.createElement('p');
-        const dogAgeTextEl = document.createTextNode(dog.age);
-        dogAgeEl.appendChild(dogAgeTextEl);
-        newSectionEl.appendChild(dogAgeEl);
+        const dogDescEl = document.createElement('p');
+        const dogDescTextEl = document.createTextNode(dog.description);
+        dogDescEl.appendChild(dogDescTextEl);
+        newSectionEl.appendChild(dogDescEl);
         // Lägg till sektionen till container
         dogsSectionEl.appendChild(newSectionEl);
     });

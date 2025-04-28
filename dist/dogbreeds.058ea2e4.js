@@ -715,7 +715,6 @@ function breedsInfoDisplay(data) {
         const imgEl = document.createElement('img');
         imgEl.src = imageData.message;
         imgEl.alt = breedName;
-        imgEl.width = 300;
         newSectionEl.appendChild(imgEl);
         const breedDescEl = document.createElement('p');
         const breedDescTextEl = document.createTextNode(dog.attributes.description);

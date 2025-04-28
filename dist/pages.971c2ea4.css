@@ -1,6 +1,18 @@
 @import "https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap";
 img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.logo {
+  width: 130px;
   height: 70px;
+}
+
+.menu-icon {
+  width: 40px;
+  height: 40px;
 }
 
 @media screen and (width >= 990px) {
@@ -45,14 +57,16 @@ img {
   }
 
   .dogs-container {
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
     display: grid;
   }
 
   .dog-container {
     cursor: pointer;
+    border-radius: 10px;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
     padding: 50px;
     display: flex;
@@ -137,7 +151,7 @@ img {
   }
 
   .dogs-container {
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
     display: grid;
   }
@@ -145,6 +159,7 @@ img {
   .dog-container {
     cursor: pointer;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
     padding: 50px;
     display: flex;
@@ -226,12 +241,12 @@ img {
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    padding: 50px 100px;
+    padding: 50px;
     display: flex;
   }
 
   .dogs-container {
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
     display: grid;
   }
@@ -239,6 +254,7 @@ img {
   .dog-container {
     cursor: pointer;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
     padding: 50px;
     display: flex;

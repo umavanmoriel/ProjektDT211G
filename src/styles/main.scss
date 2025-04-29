@@ -47,7 +47,7 @@ body {
     }
   }
 }
-.nav-list, .footer-list {
+.nav-list {
     font-family: base.$p-font;
     font-size: base.$font-size-nav-desktop;
     font-weight: base.$font-weight-h;
@@ -64,7 +64,7 @@ body {
     font-family: base.$p-font;
     font-size: base.$font-size-nav-desktop;
     font-weight: base.$font-weight-h;
-    background-color: base.$background-color-dark;
+    background-color: base.$background-color-menu;
 }
 
 @media screen and (min-width: 990px) {
@@ -90,6 +90,12 @@ body {
         font-size: base.$font-size-p-desktop;
         font-weight: base.$font-weight-p;
         line-height: base.$line-height-p;
+    }
+
+    .footer-list {
+        font-family: base.$p-font;
+        font-size: base.$font-size-nav-desktop;
+        font-weight: base.$font-weight-h;
     }
 }
 
@@ -117,6 +123,12 @@ body {
         font-weight: base.$font-weight-p;
         line-height: base.$line-height-p;
     }
+
+    .footer-list {
+        font-family: base.$p-font;
+        font-size: base.$font-size-nav-desktop;
+        font-weight: base.$font-weight-h;
+    }
 }
 
 @media screen and (max-width: 599px) {
@@ -143,5 +155,12 @@ body {
         font-weight: base.$font-weight-p;
         line-height: base.$line-height-p;
     }
+
+    .footer-list {
+        font-family: base.$p-font;
+        font-size: base.$font-size-nav-phone;
+        font-weight: base.$font-weight-h;
+    }
 }
+
 

@@ -16,18 +16,25 @@ img {
     width: 40px;
 }
 
+.social-icon {
+    height: 20px;
+    width: 20px;
+}
+
+
 $heading-font: 'Berkshire Swash', Arial;
 $p-font: 'Playfair Display', sans serif;
 
-$background-color-dark: #331a00;
+$background-color-dark: #663500;
+$background-color-menu: #331a00;
 $background-color-light:#fff2e6;
 
 $font-color-light: white;
 $font-color-dark: #331A00;
 
 $font-size-h1-desktop: 36px;
-$font-size-h2-desktop: 26px;
-$font-size-p-desktop: 20px;
+$font-size-h2-desktop: 24px;
+$font-size-p-desktop: 18px;
 
 $font-size-h1-ipad: 32px;
 $font-size-h2-ipad: 22px;
@@ -38,6 +45,7 @@ $font-size-h2-phone: 22px;
 $font-size-p-phone: 20px;
 
 $font-size-nav-desktop: 18px;
+$font-size-nav-phone: 15px;
 $font-size-menu: 26px;
 
 $line-height-h: 150%;

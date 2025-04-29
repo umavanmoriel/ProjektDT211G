@@ -8,6 +8,12 @@
     "start": "parcel",
     "build": "parcel build"
   },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead"
+  ],
   "description": "",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.14.4",

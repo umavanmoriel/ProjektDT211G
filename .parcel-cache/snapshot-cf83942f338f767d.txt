@@ -33,7 +33,7 @@
 77C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\svgo\lib\style.js133897125186038800 0
 91C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\css-tree\lib\tokenizer\utils.js133897125192198122 0
 69C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@mischnic133897122085107249 1
-51C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist133905080527254612 1
+51C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist133937922093595034 1
 78C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\csso\cjs\index.cjs133897125186208081 0
 100C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\css-tree\lib\syntax\node\TypeSelector.js133897125192094826 0
 98C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\features\minmaxwh.js133897122124464459 0
@@ -96,13 +96,13 @@
 90C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\lmdb\dependencies\lmdb-data-v1133897122100718891 1
 86C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\nth-check\lib\esm\index.js133897125184810434 0
 69C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\immutable133897132692201078 1
-72C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\src\functions\adoption.js133902339490740072 0
+72C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\src\functions\adoption.js133937902910431538 0
 67C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\globals133897122104884956 1
 99C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\css-tree\cjs\generator\token-before.cjs133897125188817633 0
 68C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\src\styles\_base.scss133904132493344076 0
 84C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\is-arrayish\package.json133897122100469641 0
 86C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\domutils\lib\esm\legacy.js133897122106924094 0
-70C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\src\styles\_layout.scss133905080631199889 0
+70C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\src\styles\_layout.scss133937922659105620 0
 78C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\escalade\readme.md133897122104080782 0
 88C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\nth-check\lib\esm\index.d.ts133897125186038800 0
 97C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@swc\helpers\cjs\_super_prop_base.cjs133897122114123272 0
@@ -121,7 +121,7 @@
 91C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\regions\NP.js133897122125004663 0
 95C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\regions\alt-as.js133897122110464319 0
 85C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\htmlparser2\lib\Parser.js133897122104800841 0
-71C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\src\pages\dogimages.html133904128396434060 0
+71C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\src\pages\dogimages.html133937921746591247 0
 101C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\svgo\plugins\addAttributesToSVGElement.js133897125186785410 0
 115C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\csso\node_modules\css-tree\lib\syntax\node\Dimension.js133897125190065562 0
 95C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\type-fest\source\tsconfig-json.d.ts133897122112093742 0
@@ -175,7 +175,7 @@
 79C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\src\images\viber-svgrepo-com.svg133904078826760096 0
 73C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\nth-check\lib133897125186267388 1
 66C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@babel133897122085263477 1
-69C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\src\functions\breed.js133903362117701761 0
+69C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\src\functions\breed.js133937919359240348 0
 101C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\type-fest\source\require-exactly-one.d.ts133897122111803721 0
 73C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\src\functions\dogimages.js133904121539065150 0
 91C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\regions\ZA.js133897122129008584 0
@@ -685,7 +685,7 @@
 120C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@swc\helpers\src\_class_static_private_field_destructure.mjs133897122121137495 0
 72C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\lmdb\keys.js133897122115427912 0
 72C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\chalk\source133897122103252322 1
-72C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\Logotyp.dc7f0d26.svg133905075903422511 0
+72C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\Logotyp.dc7f0d26.svg133937919118747088 0
 104C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\csso\node_modules\css-tree\cjs\syntax\atrule133897125188505144 1
 86C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\utility-types\package.json133897122105448186 0
 87C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\source-map-js\lib\base64.js133897125184761739 0
@@ -1159,7 +1159,7 @@
 87C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\svgo\plugins\_transforms.js133897125186755103 0
 92C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\css-tree\cjs\tokenizer\names.cjs133897125188094491 0
 87C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\svgo\node_modules\commander133897125185229480 1
-70C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\pages.971c2ea4.css133905080527227646 0
+70C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\pages.971c2ea4.css133937922093561050 0
 106C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\posthtml\node_modules\htmlparser2\package.json133897122106231491 0
 92C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@swc\helpers\_\_jsx\package.json133897122119172216 0
 99C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\csso\node_modules\css-tree\dist\data.js133897125189933852 0
@@ -1532,7 +1532,7 @@
 94C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\features\ruby.js133897122126321843 0
 116C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\030-config.md133897122113546104 0
 88C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\posthtml-render\package.json133897122102473397 0
-66C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\dogbreeds.html133905075902956493 0
+66C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\dogbreeds.html133937814128992866 0
 102C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\lightningcss\node\browserslistToTargets.js133897122106663421 0
 82C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\resolve-from\readme.md133897122103140142 0
 101C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@swc\helpers\esm\_wrap_async_generator.js133897122116967639 0
@@ -2926,7 +2926,7 @@
 98C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\features\jpeg2000.js133897122123088648 0
 105C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@swc\helpers\src\_class_private_field_get.mjs133897122120965938 0
 89C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\domhandler\lib\esm\index.d.ts133897122109503399 0
-74C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\pages.971c2ea4.css.map133905080527237665 0
+74C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\pages.971c2ea4.css.map133937922093585012 0
 87C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\domhandler\lib\esm\index.js133897122101994656 0
 100C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\features\websockets.js133897122128696107 0
 88C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\css-tree\cjs\utils\index.cjs133897125187788099 0
@@ -3274,7 +3274,7 @@
 90C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\csso\cjs\replace\Dimension.cjs133897125185979506 0
 85C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@swc\helpers\package.json133897122120494517 0
 106C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\features\childnode-remove.js133897122114765891 0
-93C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\facebook-rounded-svgrepo-com.7f4496c6.svg133905075902963458 0
+93C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\facebook-rounded-svgrepo-com.7f4496c6.svg133937919118747088 0
 89C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\cosmiconfig\dist\index.js.map133897122111826039 0
 107C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@swc\helpers\_\_class_private_field_destructure133897122117889166 1
 91C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\csso\cjs\replace\Percentage.cjs133897125186329691 0
@@ -3472,7 +3472,7 @@
 79C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\color-name\index.js133897122101484862 0
 87C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\css-tree\lib\lexer\Lexer.js133897125190978097 0
 88C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\css-tree\lib\lexer\search.js133897125191676681 0
-66C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\dogimages.html133905075902951766 0
+66C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\dogimages.html133937921748737525 0
 100C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\css-tree\cjs\syntax\node\Parentheses.cjs133897125188339657 0
 87C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\css-tree\lib\lexer\units.js133897125192141768 0
 86C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@parcel\core\lib\Parcel.js133897122114922235 0
@@ -3892,7 +3892,7 @@
 95C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@swc\helpers\_\_non_iterable_spread133897122119245180 1
 91C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\regions\GG.js133897122121154038 0
 99C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\features\audio-api.js133897122112546903 0
-77C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\dogimages.05395414.js.map133905075903309928 0
+77C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\dogimages.05395414.js.map133937919119731669 0
 91C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\regions\GL.js133897122121236609 0
 121C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@parcel\graph\test\integration\adjacency-list-shared-array.js133897122102041302 0
 91C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\regions\GM.js133897122121303210 0
@@ -4083,7 +4083,7 @@
 74C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@parcel\fs\lib133897122110620563 1
 114C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\features\css-indeterminate-pseudo.js133897122116858610 0
 108C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\features\css-initial-letter.js133897122116858610 0
-82C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\viber-svgrepo-com.c25638e4.svg133905075903424186 0
+82C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\viber-svgrepo-com.c25638e4.svg133937919120089802 0
 107C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\features\css-initial-value.js133897122116967639 0
 101C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\features\css-lch-lab.js133897122116967639 0
 113C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@parcel\runtime-js\lib\helpers\browser\html-loader.js133897122109503399 0
@@ -4156,7 +4156,7 @@
 99C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\features\dragndrop.js133897122119578343 0
 101C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\features\mediasource.js133897122124216258 0
 108C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\features\element-from-point.js133897122119722743 0
-76C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\adoption.ac359edc.js.map133905075903091653 0
+76C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\adoption.ac359edc.js.map133937919119731669 0
 99C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\features\es6-class.js133897122119765419 0
 99C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\features\svg-html5.js133897122127111785 0
 104C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\caniuse-lite\data\features\es6-generators.js133897122119765419 0
@@ -4573,7 +4573,7 @@
 101C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@swc\helpers\esm\_class_name_tdz_error.js133897122115183435 0
 86C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@parcel\workers\src\bus.js133897122104250423 0
 105C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@swc\helpers\esm\_class_private_field_init.js133897122115263951 0
-62C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\index.html133905079385190637 0
+62C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\index.html133937919118747088 0
 104C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@swc\helpers\esm\_class_private_field_set.js133897122115263951 0
 105C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@swc\helpers\esm\_class_private_method_get.js133897122115263951 0
 102C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@parcel\transformer-react-refresh-wrap\lib133897122104250423 1
@@ -4833,7 +4833,7 @@
 97C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@parcel\utils\src\progress-message.js133897122113626552 0
 93C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@parcel\utils\src\PromiseQueue.js133897122113626552 0
 99C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@parcel\utils\src\relativeBundlePath.js133897122113782815 0
-86C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\instagram-svgrepo-com.d616f204.svg133905075903224177 0
+86C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\instagram-svgrepo-com.d616f204.svg133937919118747088 0
 92C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@parcel\utils\src\relativeUrl.js133897122113782815 0
 104C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@parcel\utils\src\replaceBundleReferences.js133897122113782815 0
 90C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\@parcel\utils\src\sourcemap.js133897122114041182 0
@@ -5481,17 +5481,17 @@
 71C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\.bin\semver133897122129515412 0
 75C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\.bin\semver.cmd133897122129515412 0
 91C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\node_modules\.bin\update-browserslist-db.ps1133897122129515412 0
-72C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\adoption.ac359edc.js133905075903061728 0
-65C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\adoption.html133905075903273589 0
-73C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\dogbreeds.058ea2e4.js133905075903140720 0
-77C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\dogbreeds.058ea2e4.js.map133905075903197143 0
+72C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\adoption.ac359edc.js133937919118747088 0
+65C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\adoption.html133937919118747088 0
+73C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\dogbreeds.058ea2e4.js133937919359379885 0
+77C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\dogbreeds.058ea2e4.js.map133937919359403467 0
 73C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\dogbreeds.c73a4bb0.js133903360044485065 0
 77C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\dogbreeds.c73a4bb0.js.map133903360044816698 0
-73C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\dogimages.05395414.js133905075903278548 0
+73C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\dogimages.05395414.js133937919118747088 0
 91C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\facebook-color-svgrepo-com.21c61d0f.svg133904075128966529 0
 85C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\facebook-svgrepo-com.cc0fde03.svg133904082060485774 0
 88C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\instagram-1-svgrepo-com.78992031.svg133904075128948324 0
-74C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\menu-icon.f9c77961.svg133905075903424186 0
-69C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\pages.6f404f4c.js133905078744947947 0
-73C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\pages.6f404f4c.js.map133905078744947947 0
+74C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\menu-icon.f9c77961.svg133937919120089802 0
+69C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\pages.6f404f4c.js133937919119407312 0
+73C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\pages.6f404f4c.js.map133937919119731669 0
 91C:\Users\Uma Vanmoriel\Documents\ProjektDT211G\dist\viber-chat-app-svgrepo-com.36ed736e.svg133904077835874560 0

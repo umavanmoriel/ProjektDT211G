@@ -35,7 +35,7 @@ function DogsInfoDisplay(data) {
     dogsSectionEl.innerHTML = ''; 
 
     // Loopa genom och skapa nya list element
-    data.forEach(dog => {
+    data.forEach(async (dog) => {
         const newSectionEl = document.createElement('section');
         //Lägger till class till element
         newSectionEl.className = 'dog-container';
@@ -49,6 +49,16 @@ function DogsInfoDisplay(data) {
         const dogBreedTextEl = document.createTextNode(dog.breed);
         dogBreedEl.appendChild(dogBreedTextEl);
         newSectionEl.appendChild(dogBreedEl);
+
+        const breedName = dog.breed;
+        const breedQueryName = breedName.split(" ")[1] || breedName;
+        const key = 'hV8TwcwxRLCeMsnZTS3IqE42Qixd1durtF-HgOyHcrA';
+        const imageResponse = await fetch(`https://api.unsplash.com/search/photos?query=${breedQueryName}&client_id=${key}&per_page=1`);
+        const imageData = await imageResponse.json();
+        const imgEl = document.createElement('img');
+        imgEl.src = imageData.results[0].urls.regular;
+        imgEl.alt = breedName;
+        newSectionEl.appendChild(imgEl);
 
         const dogDescEl = document.createElement('p');
         const dogDescTextEl = document.createTextNode(dog.description);

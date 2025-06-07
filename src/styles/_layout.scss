@@ -5,6 +5,12 @@
         align-items: center;
         padding: 50px 200px;
     }
+
+    .gallery-main {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 150px;
+    }
     
     .wellcome-text {
         display: flex;
@@ -95,6 +101,12 @@
         padding: 50px 100px;
     }
     
+    .gallery-main {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 60px;
+    }
+
     .wellcome-text {
         display: flex;
         flex-direction: column;
@@ -225,6 +237,12 @@
         flex-direction: column;
         align-items: center;
         padding: 50px ;
+    }
+
+    .gallery-main {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 60px;
     }
     
     .wellcome-text {

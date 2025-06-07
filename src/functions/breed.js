@@ -47,11 +47,12 @@ function breedsInfoDisplay(data) {
         newSectionEl.appendChild(breedNameEl); 
 
         const breedName = dog.attributes.name;
-        const breedQueryName = breedName.toLowerCase().split(" ")[1];
-        const imageResponse = await fetch(`https://dog.ceo/api/breed/${breedQueryName}/images/random`);
+        const breedQueryName = breedName.split(" ")[1] || breedName;
+        const key = 'hV8TwcwxRLCeMsnZTS3IqE42Qixd1durtF-HgOyHcrA';
+        const imageResponse = await fetch(`https://api.unsplash.com/search/photos?query=${breedQueryName}&client_id=${key}&per_page=1`);
         const imageData = await imageResponse.json();
         const imgEl = document.createElement('img');
-        imgEl.src = imageData.message;
+        imgEl.src = imageData.results[0].urls.regular;
         imgEl.alt = breedName;
         newSectionEl.appendChild(imgEl);
 
@@ -63,43 +64,7 @@ function breedsInfoDisplay(data) {
         // Lägg till sektionen till container
         breedSectionEl.appendChild(newSectionEl);
 
+        console.log(imageData);
     });
 }
-
-/*
-//Hämta information
-async function getBreedImg() {
-    try {
-        const imageResponse = await fetch(`https://dog.ceo/api/breed/${breedNameEl}/images/random`);
-        const imageData = await imageResponse.json();
-        return imageData;
-    } catch (error) {
-        console.error('Fetch error:', error);
-        throw error;
-    }
-};
-
-// Användning av den asynkrona funktionen
-async function processImgData() {
-    try {
-        const imgResult = await getBreedImg();
-        console.log('Received data:', imgResult);
-        breedsImgDisplay(imgResult);
-    } catch (error) {
-        console.error('Error processing data:', error);
-    }
-}
-
-// Visa bild för kurser
-function coursesInfoDisplays() {
-    const imgEl = document.createElement('img');
-    imgEl.src = imageData.message;
-    imgEl.alt = breedNameEl;
-    imgEl.width = 200;
-    newSectionEl.appendChild(imgEl);
-
-    // Lägg till sektionen till container
-    breedSectionEl.appendChild(newSectionEl);
-}
-*/
 

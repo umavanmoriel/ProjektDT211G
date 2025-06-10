@@ -1,11 +1,14 @@
+// Kör funktionen när siddan laddas om
 window.onload = init;
 
-// Funktion för att initialisera applikationen och hämta information
+/** Funktion för att initialisera applikationen och hämta information */ 
 function init() {
     processDogData();
 }
 
-//Hämta information
+/**Hämta data om hundar som ska adopteras från github api 
+ *  return {object} - returnerar en lista med hunddata
+*/
 async function getDogInfo() {
     try {
         const response = await fetch('https://raw.githubusercontent.com/umavanmoriel/ProjektDT211Gapi/refs/heads/main/dog-adoption.json');
@@ -17,7 +20,9 @@ async function getDogInfo() {
     }
 };
 
-// Användning av den asynkrona funktionen
+/** Hämtar data från funktionen getDogInfo och visa den 
+ * @return {object} - returnerar en lista med hunddata
+*/
 async function processDogData() {
     try {
         const result = await getDogInfo();
@@ -28,7 +33,11 @@ async function processDogData() {
     }
 }
 
-// Visa information för hundar som ska adopteras
+/** Visa data om hundar på webbsidan
+ * Loop listar varje hunds namn, beskrivning, ras och bild
+ * Bilder hämtas från annat api
+ * @param {object} data - objekt med lista med hundar
+ */
 function DogsInfoDisplay(data) {
     const dogsSectionEl = document.getElementById('adoptionDogs-container'); 
     // Rensa tidigare innehåll

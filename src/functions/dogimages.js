@@ -1,12 +1,14 @@
 // Initialisering när sidan laddas om
 window.onload = init;
 
-// Funktion för att initialisera applikationen och hämta information
+/** Funktion för att initialisera applikationen och hämta information */ 
 function init() {
     processImageData();
 }
 
-//Hämta information
+/**Hämta bilder med hundar från api 
+ *  return {object} - returnerar en lista medn bilder
+*/
 async function getImagesInfo() {
     try {
         const imageResponse = await fetch(`https://dog.ceo/api/breeds/image/random/20`);
@@ -18,7 +20,9 @@ async function getImagesInfo() {
     }
 };
 
-// Användning av den asynkrona funktionen
+/** Hämtar data från funktionen getImagesInfo och visa den 
+ * @return {object} - returnerar en lista med bilder
+*/
 async function processImageData() {
     try {
         const imgResult = await getImagesInfo();
@@ -29,7 +33,10 @@ async function processImageData() {
     }
 }
 
-// Visa information för hundraser
+/** Visa bilder med hundar på webbsidan
+ * Bilder hämtas från annat api med hjälp av "message"-nyckel
+ * @param {object} data - objekt med lista med hundbilders URL
+ */
 function imagesDisplay(data) {
     const imageSectionEl = document.getElementById('images-container'); 
     // Rensa tidigare innehåll

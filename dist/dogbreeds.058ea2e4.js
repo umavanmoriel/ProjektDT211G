@@ -669,12 +669,12 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 },{}],"kmEqi":[function(require,module,exports,__globalThis) {
 // Initialisering när sidan laddas om
 window.onload = init;
-// Funktion för att initialisera applikationen och hämta information
-function init() {
+/** Funktion för att initialisera applikationen och hämta information */ function init() {
     processData();
 }
-//Hämta information
-async function getBreedInfo() {
+/**Hämta data om hundar från api 
+ *  return {object} - returnerar en lista med hunddata
+*/ async function getBreedInfo() {
     try {
         const response = await fetch('https://dogapi.dog/api/v2/breeds?format=json');
         const data = await response.json();
@@ -684,8 +684,9 @@ async function getBreedInfo() {
         throw error;
     }
 }
-// Användning av den asynkrona funktionen
-async function processData() {
+/** Hämtar data från funktionen getBreedInfo och visa den 
+ * @return {object} - returnerar en lista med hunddata
+*/ async function processData() {
     try {
         const result = await getBreedInfo();
         console.log('Received data:', result);
@@ -694,8 +695,11 @@ async function processData() {
         console.error('Error processing data:', error);
     }
 }
-// Visa information för hundraser
-function breedsInfoDisplay(data) {
+/** Visa data om hundar på webbsidan
+ * Loop listar varje hunds namn, beskrivning, ras och bild
+ * Bilder hämtas från annat api
+ * @param {object} data - objekt med lista med hundar
+ */ function breedsInfoDisplay(data) {
     const breedSectionEl = document.getElementById('dogs-container');
     // Rensa tidigare innehåll
     breedSectionEl.innerHTML = '';

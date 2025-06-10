@@ -1,12 +1,14 @@
 // Initialisering när sidan laddas om
 window.onload = init;
 
-// Funktion för att initialisera applikationen och hämta information
+/** Funktion för att initialisera applikationen och hämta information */ 
 function init() {
     processData();
 }
 
-//Hämta information
+/**Hämta data om hundar från api 
+ *  return {object} - returnerar en lista med hunddata
+*/
 async function getBreedInfo() {
     try {
         const response = await fetch('https://dogapi.dog/api/v2/breeds?format=json');
@@ -18,7 +20,9 @@ async function getBreedInfo() {
     }
 };
 
-// Användning av den asynkrona funktionen
+/** Hämtar data från funktionen getBreedInfo och visa den 
+ * @return {object} - returnerar en lista med hunddata
+*/
 async function processData() {
     try {
         const result = await getBreedInfo();
@@ -29,7 +33,11 @@ async function processData() {
     }
 }
 
-// Visa information för hundraser
+/** Visa data om hundar på webbsidan
+ * Loop listar varje hunds namn, beskrivning, ras och bild
+ * Bilder hämtas från annat api
+ * @param {object} data - objekt med lista med hundar
+ */
 function breedsInfoDisplay(data) {
     const breedSectionEl = document.getElementById('dogs-container'); 
     // Rensa tidigare innehåll

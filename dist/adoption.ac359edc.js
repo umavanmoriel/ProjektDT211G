@@ -667,13 +667,14 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"7lWSI":[function(require,module,exports,__globalThis) {
+// Kör funktionen när siddan laddas om
 window.onload = init;
-// Funktion för att initialisera applikationen och hämta information
-function init() {
+/** Funktion för att initialisera applikationen och hämta information */ function init() {
     processDogData();
 }
-//Hämta information
-async function getDogInfo() {
+/**Hämta data om hundar som ska adopteras från github api 
+ *  return {object} - returnerar en lista med hunddata
+*/ async function getDogInfo() {
     try {
         const response = await fetch('https://raw.githubusercontent.com/umavanmoriel/ProjektDT211Gapi/refs/heads/main/dog-adoption.json');
         const data = await response.json();
@@ -683,8 +684,9 @@ async function getDogInfo() {
         throw error;
     }
 }
-// Användning av den asynkrona funktionen
-async function processDogData() {
+/** Hämtar data från funktionen getDogInfo och visa den 
+ * @return {object} - returnerar en lista med hunddata
+*/ async function processDogData() {
     try {
         const result = await getDogInfo();
         console.log('Received data:', result);
@@ -693,8 +695,11 @@ async function processDogData() {
         console.error('Error processing data:', error);
     }
 }
-// Visa information för hundar som ska adopteras
-function DogsInfoDisplay(data) {
+/** Visa data om hundar på webbsidan
+ * Loop listar varje hunds namn, beskrivning, ras och bild
+ * Bilder hämtas från annat api
+ * @param {object} data - objekt med lista med hundar
+ */ function DogsInfoDisplay(data) {
     const dogsSectionEl = document.getElementById('adoptionDogs-container');
     // Rensa tidigare innehåll
     dogsSectionEl.innerHTML = '';

@@ -669,12 +669,12 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 },{}],"h3lWi":[function(require,module,exports,__globalThis) {
 // Initialisering när sidan laddas om
 window.onload = init;
-// Funktion för att initialisera applikationen och hämta information
-function init() {
+/** Funktion för att initialisera applikationen och hämta information */ function init() {
     processImageData();
 }
-//Hämta information
-async function getImagesInfo() {
+/**Hämta bilder med hundar från api 
+ *  return {object} - returnerar en lista medn bilder
+*/ async function getImagesInfo() {
     try {
         const imageResponse = await fetch(`https://dog.ceo/api/breeds/image/random/20`);
         const imageData = await imageResponse.json();
@@ -684,8 +684,9 @@ async function getImagesInfo() {
         throw error;
     }
 }
-// Användning av den asynkrona funktionen
-async function processImageData() {
+/** Hämtar data från funktionen getImagesInfo och visa den 
+ * @return {object} - returnerar en lista med bilder
+*/ async function processImageData() {
     try {
         const imgResult = await getImagesInfo();
         console.log('Received data:', imgResult);
@@ -694,8 +695,10 @@ async function processImageData() {
         console.error('Error processing data:', error);
     }
 }
-// Visa information för hundraser
-function imagesDisplay(data) {
+/** Visa bilder med hundar på webbsidan
+ * Bilder hämtas från annat api med hjälp av "message"-nyckel
+ * @param {object} data - objekt med lista med hundbilders URL
+ */ function imagesDisplay(data) {
     const imageSectionEl = document.getElementById('images-container');
     // Rensa tidigare innehåll
     imageSectionEl.innerHTML = '';

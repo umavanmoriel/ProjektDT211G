@@ -45,6 +45,7 @@ function imagesDisplay(data) {
         const imgEl = document.createElement('img');
         imgEl.src = image;
         imgEl.width = 200;
+        imgEl.classList.add('doggy-photo');
         imageSectionEl.appendChild(imgEl);
     });
 }

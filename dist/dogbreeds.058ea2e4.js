@@ -719,6 +719,7 @@ window.onload = init;
         const imageData = await imageResponse.json();
         const imgEl = document.createElement('img');
         imgEl.src = imageData.results[0].urls.regular;
+        imgEl.classList.add('doggy-img');
         imgEl.alt = breedName;
         newSectionEl.appendChild(imgEl);
         const breedDescEl = document.createElement('p');
